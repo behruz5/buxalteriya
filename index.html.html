@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProBuxgalter - Professional Buxgalteriya Xizmatlari</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <!-- HEADER / NAVIGATION -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-2">
+                <i class="fa-solid fa-calculator text-blue-600 text-3xl"></i>
+                <span class="text-2xl font-bold text-gray-900">Pro<span class="text-blue-600">Buxgalter</span></span>
+            </div>
+            <nav class="hidden md:flex space-x-8 font-medium">
+                <a href="#services" class="hover:text-blue-600 transition">Xizmatlar</a>
+                <a href="#about" class="hover:text-blue-600 transition">Biz haqimizda</a>
+                <a href="#contact" class="hover:text-blue-600 transition">Bog'lanish</a>
+            </nav>
+            <div>
+                <a href="#contact" class="bg-blue-600 text-white px-5 py-2.5 rounded-xl font-medium shadow-lg hover:bg-blue-700 transition">Konsultatsiya olish</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div>
+                <span class="bg-blue-800 text-blue-200 text-sm font-semibold px-3 py-1 rounded-full uppercase tracking-wider">Ishonchli Hamkor</span>
+                <h1 class="text-4xl sm:text-5xl font-extrabold mt-4 leading-tight">Biznesingiz uchun professional buxgalteriya</h1>
+                <p class="mt-4 text-blue-100 text-lg">Soliq hisobotlari, 1C yuritish, kadrlar bo'limi va huquqiy maslahatlar. Barcha moliyaviy ishlaringizni bizga topshiring va xotirjam o'sishga erishing.</p>
+                <div class="mt-8 flex space-x-4">
+                    <a href="#contact" class="bg-white text-blue-900 px-6 py-3 rounded-xl font-bold shadow-md hover:bg-gray-100 transition">Murojaat qilish</a>
+                    <a href="#services" class="border border-white text-white px-6 py-3 rounded-xl font-bold hover:bg-white/10 transition">Xizmatlarni ko'rish</a>
+                </div>
+            </div>
+            <div class="hidden md:flex justify-center">
+                <div class="bg-white/10 p-8 rounded-3xl backdrop-blur-md border border-white/20 text-center">
+                    <i class="fa-solid fa-chart-line text-6xl text-blue-300 mb-4"></i>
+                    <h3 class="text-2xl font-bold">100% Kafolat</h3>
+                    <p class="text-blue-200 mt-2">Soliq va qonunchilik talablariga to'liq rioya qilgan holda sifatli xizmat ko'rsatamiz.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section id="services" class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h2 class="text-3xl font-bold text-gray-900">Bizning xizmatlarimiz</h2>
+                <p class="text-gray-600 mt-2">Kompaniyangiz ehtiyojidan kelib chiqqan holda keng qamrovli buxgalteriya xizmatlari</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+                <!-- Service 1 -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                    <div class="w-14 h-14 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center text-2xl mb-6">
+                        <i class="fa-solid fa-file-invoice-dollar"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900">Soliq hisobotlari</h3>
+                    <p class="text-gray-600 mt-3">Barcha turdagi soliq hisobotlarini tayyorlash va o'z vaqtida soliq idoralariga topshirish.</p>
+                </div>
+                <!-- Service 2 -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                    <div class="w-14 h-14 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center text-2xl mb-6">
+                        <i class="fa-solid fa-users-gear"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900">Kadrlar bo'limi (HR)</h3>
+                    <p class="text-gray-600 mt-3">Xodimlarni ishga qabul qilish, buyruqlar tayyorlash, mehnat daftarchalari va ish haqini hisoblash.</p>
+                </div>
+                <!-- Service 3 -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                    <div class="w-14 h-14 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center text-2xl mb-6">
+                        <i class="fa-solid fa-building-columns"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900">MChJ va YaTT ochish</h3>
+                    <p class="text-gray-600 mt-3">Yangi biznes boshlayotganlar uchun davlat ro'yxatidan o'tkazish va hisob raqam ochishda yordam.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="bg-gray-100 py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div>
+                <h2 class="text-3xl font-bold text-gray-900">Nima uchun aynan bizni tanlashadi?</h2>
+                <p class="text-gray-600 mt-4">Biz o'z ishining ustasi bo'lgan mutaxassislarmiz. Ko'p yillik tajribamiz orqali har qanday qiyin moliyaviy vaziyatlarga yechim topamiz va soliq xavflarini kamaytiramiz.</p>
+                <ul class="mt-6 space-y-4">
+                    <li class="flex items-center space-x-3">
+                        <i class="fa-solid fa-circle-check text-blue-600 text-xl"></i>
+                        <span class="font-medium text-gray-800">5+ yillik tajriba va professional jamoa</span>
+                    </li>
+                    <li class="flex items-center space-x-3">
+                        <i class="fa-solid fa-circle-check text-blue-600 text-xl"></i>
+                        <span class="font-medium text-gray-800">100% qonuniy va xavfsiz xizmat</span>
+                    </li>
+                    <li class="flex items-center space-x-3">
+                        <i class="fa-solid fa-circle-check text-blue-600 text-xl"></i>
+                        <span class="font-medium text-gray-800">Doimiy maslahat va qo'llab-quvvatlash</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="bg-blue-600 text-white p-8 rounded-3xl shadow-lg">
+                <h3 class="text-2xl font-bold mb-4">Tekor aloqa</h3>
+                <p class="mb-6">Savollaringiz bormi yoki biznesingiz uchun buxgalter kerakmi? Hozirroq raqamingizni qoldiring, o'zimiz bog'lanamiz.</p>
+                <form onsubmit="event.preventDefault(); alert('So\'rovingiz qabul qilindi! Tez orada siz bilan bog\'lanamiz.');" class="space-y-4">
+                    <input type="text" placeholder="Ismingiz" required class="w-full px-4 py-3 rounded-xl text-gray-900 focus:outline-none">
+                    <input type="tel" placeholder="Telefon raqamingiz (+998 ...)" required class="w-full px-4 py-3 rounded-xl text-gray-900 focus:outline-none">
+                    <button type="submit" class="w-full bg-gray-900 text-white font-bold py-3 rounded-xl hover:bg-gray-800 transition">Yuborish</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold text-gray-900">Biz bilan bog'laning</h2>
+            <p class="text-gray-600 mt-2">Savollaringiz bo'yicha istalgan vaqtda murojaat qilishingiz mumkin</p>
+            <div class="mt-8 flex flex-wrap justify-center gap-6">
+                <div class="bg-white px-6 py-4 rounded-xl shadow-sm border border-gray-100 flex items-center space-x-3">
+                    <i class="fa-solid fa-phone text-blue-600 text-xl"></i>
+                    <span class="font-semibold text-gray-800">+998 90 123-45-67</span>
+                </div>
+                <div class="bg-white px-6 py-4 rounded-xl shadow-sm border border-gray-100 flex items-center space-x-3">
+                    <i class="fa-solid fa-envelope text-blue-600 text-xl"></i>
+                    <span class="font-semibold text-gray-800">info@probuxgalter.uz</span>
+                </div>
+                <div class="bg-white px-6 py-4 rounded-xl shadow-sm border border-gray-100 flex items-center space-x-3">
+                    <i class="fa-solid fa-location-dot text-blue-600 text-xl"></i>
+                    <span class="font-semibold text-gray-800">Toshkent shahri, Chilonzor tumani</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-gray-900 text-gray-400 py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p>&copy; 2026 ProBuxgalter. Barcha huquqlar himoyalangan.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
